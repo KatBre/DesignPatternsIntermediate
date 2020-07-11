@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0eb5530-2de8-4caf-93a7-8f994a5cf1d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/example/carpackage/AbstractCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/example/carpackage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/example/carpackage/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/NewsStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/Watcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/IFontFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/InverterFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/LowerFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/SplitterFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/TrimFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/UpperFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/builder/example/Bohater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/builder/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Nauczyciel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Uczen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Wiadomosc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configurationv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configurationv3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Generated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/abstractfactory/ex1/AsusPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abstractfactory/ex1/AsusPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DesignPatternsExercises.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractfactory/ex1/AsusPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/abstractfactory/ex1/AsusPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,25 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Kasia\IdeaProjects\DesignPatternsIntermediate\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1eX4uqeq1O0RE2N2ncFEdxlhw6l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +47,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -138,18 +116,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,18 +134,34 @@
       <option name="project" value="LOCAL" />
       <updated>1594462659299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="next exercises added">
+      <created>1594470066922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594470066922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="odd exercises added - not done yet">
+      <created>1594476169789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594476169789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit&#10;some exercises added" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit&#10;some exercises added" />
+    <MESSAGE value="next exercises added" />
+    <MESSAGE value="odd exercises added - not done yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="odd exercises added - not done yet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1594468769933">
+    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1594476093649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594468769933" />
+    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594476093649" />
     <state x="1087" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594455164664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -188,33 +170,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1154" y="384" width="440" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1594464244332" />
-    <state x="938" y="119" key="CommitChangelistDialog2" timestamp="1594462658863">
+    <state x="938" y="119" key="CommitChangelistDialog2" timestamp="1594476169478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="938" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594462658863" />
-    <state x="1138" y="280" key="FileChooserDialogImpl" timestamp="1594462606994">
+    <state x="938" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594476169478" />
+    <state x="1138" y="280" key="FileChooserDialogImpl" timestamp="1594471961411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1138" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594462606994" />
-    <state width="1047" height="272" key="GridCell.Tab.0.bottom" timestamp="1594469892899">
+    <state x="1138" y="280" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594471961411" />
+    <state width="1047" height="272" key="GridCell.Tab.0.bottom" timestamp="1594476187263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594469892899" />
-    <state width="1047" height="272" key="GridCell.Tab.0.center" timestamp="1594469892899">
+    <state width="1047" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594476187263" />
+    <state width="1047" height="272" key="GridCell.Tab.0.center" timestamp="1594476187263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594469892899" />
-    <state width="1047" height="272" key="GridCell.Tab.0.left" timestamp="1594469892899">
+    <state width="1047" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594476187263" />
+    <state width="1047" height="272" key="GridCell.Tab.0.left" timestamp="1594476187262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594469892899" />
-    <state width="1047" height="272" key="GridCell.Tab.0.right" timestamp="1594469892899">
+    <state width="1047" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594476187262" />
+    <state width="1047" height="272" key="GridCell.Tab.0.right" timestamp="1594476187263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1047" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594469892899" />
-    <state x="950" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594462722078">
+    <state width="1047" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594476187263" />
+    <state x="856" y="154" key="SettingsEditor" timestamp="1594501766558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="950" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594462722078" />
+    <state x="856" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594501766558" />
+    <state x="950" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594476175875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="950" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594476175875" />
+    <state x="1061" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1594475932695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1061" y="141" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594475932695" />
   </component>
 </project>

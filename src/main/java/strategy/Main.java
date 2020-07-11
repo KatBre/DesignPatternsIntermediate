@@ -9,12 +9,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String command;
         do {
-            System.out.println("zmien:");
             command = scanner.nextLine();
             if (command.startsWith("zmien")) {
                 formatterChanger(printer, command.split(" ")[1]);
             } else if (command.startsWith("formatuj")) {
-                printerChanger(printer, command.split("", 2)[1]);
+                printerChanger(printer, command.split(" ", 2)[1]);
 
             }
 
