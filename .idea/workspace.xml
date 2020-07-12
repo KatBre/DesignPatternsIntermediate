@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0eb5530-2de8-4caf-93a7-8f994a5cf1d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/example/Bohater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/builder/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Nauczyciel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Uczen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observer/example/Wiadomosc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configurationv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Configurationv3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Generated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/IHomeDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/CzajnikAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/GazowkaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/adapters/ZelazkoAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/devices/Czajnik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/devices/Gazowka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/devices/Zelazko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ex2/CustomPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ex2/IPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ex2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ex2/Pizzeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ex2/SimplePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/example/DropHorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/example/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/example/HeroOnAHorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/example/IHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eX4uqeq1O0RE2N2ncFEdxlhw6l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +55,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -148,20 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594476169789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some exercises added - not done yet">
+      <created>1594503600606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594503600606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit&#10;some exercises added" />
     <MESSAGE value="next exercises added" />
     <MESSAGE value="odd exercises added - not done yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="odd exercises added - not done yet" />
+    <MESSAGE value="some exercises added - not done yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="some exercises added - not done yet" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1594476093649">
+    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1594544778537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594476093649" />
+    <state x="1163" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594544778537" />
     <state x="1087" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594455164664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,10 +186,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1154" y="384" width="440" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1594464244332" />
-    <state x="938" y="119" key="CommitChangelistDialog2" timestamp="1594476169478">
+    <state x="938" y="119" key="CommitChangelistDialog2" timestamp="1594503600087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="938" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594476169478" />
+    <state x="938" y="119" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594503600087" />
     <state x="1138" y="280" key="FileChooserDialogImpl" timestamp="1594471961411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,14 +210,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1047" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594476187263" />
-    <state x="856" y="154" key="SettingsEditor" timestamp="1594501766558">
+    <state x="856" y="154" key="SettingsEditor" timestamp="1594542803457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="856" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594501766558" />
-    <state x="950" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594476175875">
+    <state x="856" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594542803457" />
+    <state x="950" y="258" key="Vcs.Push.Dialog.v2" timestamp="1594503648076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="950" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594476175875" />
+    <state x="950" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594503648076" />
+    <state x="1037" y="310" key="git4idea.merge.GitPullDialog" timestamp="1594503608757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1037" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594503608757" />
     <state x="1061" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1594475932695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
